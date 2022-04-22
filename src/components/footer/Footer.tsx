@@ -4,10 +4,10 @@ import styled from "styled-components";
 
 const FooterContainer = styled.div`
   display: flex;
-  background: bisque;
+  background: #FFFFFF;
   justify-content: center;
   align-items: center;
-  height: 59px;
+  height: 68px;
   padding: 5px;
   
   a {
