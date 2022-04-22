@@ -4,7 +4,7 @@ import { Footer } from "../components/footer/Footer";
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 100vh;
+  height: 93vh;
   background: grey;
   background-image: url(../../public/assets/home/background-home-desktop.jpg);
 `;
@@ -77,7 +77,7 @@ const TextWrapper = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 170px;
-  padding-top: 50px;
+  padding-top: 240px;
 
   @media (max-width: 768px) {
     display: flex;
