@@ -7,3 +7,4 @@ npm run dev
 # or
 yarn dev
 ```
+- Figma https://www.figma.com/file/YP7siLNrc12mGWPsaoShPJ/space-tourism-website?node-id=0%3A1
