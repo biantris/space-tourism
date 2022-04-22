@@ -46,6 +46,7 @@ const Subtitle = styled.div`
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    width: 350px;
     text-align: center;
     margin: 20px;
     color: #D0D6F9;
@@ -83,6 +84,8 @@ const TextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 0px;
+    padding-top: 20px;
     align-items: center;
     padding-top: 50px;
   }

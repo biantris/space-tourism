@@ -7,7 +7,7 @@ const FooterContainer = styled.div`
   background: bisque;
   justify-content: center;
   align-items: center;
-  height: 55px;
+  height: 59px;
   padding: 5px;
   
   a {
