@@ -6,8 +6,15 @@ import { Header } from "../components/header/Header";
 
 const Container = styled.div`
   height: 93vh;
-  background: grey;
-  background-image: url(../../public/assets/home/background-home-desktop.jpg);
+  background-image: url('../assets/home/background-home-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 768px) {
+    background-image: url('../assets/home/background-home-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 `;
 
 const Title = styled.div`
@@ -35,7 +42,7 @@ const Subtitle = styled.div`
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 32px;
   width: 500px;
   margin: 10px;
@@ -45,7 +52,7 @@ const Subtitle = styled.div`
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
     width: 350px;
     text-align: center;
