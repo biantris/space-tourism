@@ -43,6 +43,10 @@ const ContentHeader = styled.div`
 const Nav = styled.div`
     display: flex;
     margin-right: 160px;
+
+    @media (max-width: 1020px) {
+        margin-right: 0px;
+    }
 `;
 
 const Icon = styled.div`
