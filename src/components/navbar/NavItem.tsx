@@ -2,7 +2,11 @@ import React from "react";
 import { useRouter } from "next/router";
 import propTypes from "prop-types";
 
-const NavItem = ({ item }) => {
+type Props = {
+  item: string;
+}
+
+const NavItem = ({ item }: Props) => {
   const router = useRouter();
   return <>{router.pathname === "/" ? item : ""}</>;
 };
