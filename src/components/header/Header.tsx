@@ -64,9 +64,9 @@ export const Header = () => {
       <Nav>
         {navLinks.map((link, index) => {
           return (
-            <ul>
-              <Link href={link.path}>
-                <li key={index}>{link.name}</li>
+            <ul key={index}>
+              <Link href={link.path} passHref>
+                <li>{link.name}</li>
               </Link>
             </ul>
           );
