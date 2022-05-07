@@ -7,7 +7,7 @@ npm run dev
 # or
 yarn dev
 ```
-- Figma https://www.figma.com/file/YP7siLNrc12mGWPsaoShPJ/space-tourism-website?node-id=0%3A1
+- **Figma** https://www.figma.com/file/YP7siLNrc12mGWPsaoShPJ/space-tourism-website?node-id=0%3A1
 
 ## Demo 
-link: https://space-tourism-gamma.vercel.app/
+🔗 **link**: https://space-tourism-gamma.vercel.app/
